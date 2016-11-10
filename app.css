@@ -1,0 +1,271 @@
+
+
+body{
+	margin:0;
+}
+
+.top-img{
+	width: 100%;
+	height: auto;
+	margin:0;
+	position: relative;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.mario{
+	position: relative;
+	padding: 80px 0 !important; 
+}
+
+
+.cloud{
+	width: 200px;
+	position: absolute;
+}
+.cloud1{
+	right:100px;
+	top:270px;
+}
+
+
+.cloud2{
+	left:70px;
+	top:50px;
+}
+
+.cloud3{
+	left:2%;
+	top:230px;
+}
+
+.cloud4{
+	right:10px;
+	top:20px;
+	width: 100px;
+}
+
+
+.cloud5{
+	right:200px;
+	top:20px;
+	width: 100px;
+}
+
+
+.title-section{
+	background: #f1f1f1;
+	display: inline-block;
+	padding:15px 40px;
+	position: relative;
+	font-size: 28px;
+	font-family: 'Handlee';
+	margin:40px auto;
+}
+
+.title-section:after{
+	content: '';
+	border-left: 30px solid transparent;
+	border-top: 30px solid transparent;
+	border-right: 30px solid #F15A5F;
+	border-bottom: 30px solid transparent;
+	display: inline-block;
+	position:absolute;
+	right:0px;
+	top:0;
+	z-index: 3;
+
+}
+
+.title-section:before{
+	content: '';
+	border-left: 30px solid #F15A5F;
+	border-top: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	display: inline-block;
+	position:absolute;
+	left:0px;
+	top:0;
+	z-index: 3;
+
+}
+
+
+.title-section img{
+	display: inline-block;
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	top:-48px;
+	right: -38px;
+	transform:rotate(40deg);
+	z-index: 5;
+
+}
+
+
+.top-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.familia{
+	position: relative;
+}
+
+.familia-dino{
+	position: absolute;
+	width: 200px;
+}
+
+.familia-dino1{
+	top:30px;
+	 right:-330px;
+}
+
+
+.back-azul{
+	background: #66CBFF;
+}
+
+.back-rosa{
+	background: #F15A5F;
+}
+
+.padding-section{
+	padding:30px 10px;
+}
+
+.card{
+	max-width: 450px;
+	margin: 30px auto;
+	display: flex;
+	padding: 20px 0;
+	flex-direction:column;
+	border: 1px solid #bbb;
+	background: #f2f2f2;
+	border-radius: 5px;
+	z-index: 10;
+}
+
+.card .info{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+}
+
+.card .info-title{
+	background: #8cc63e !important;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 25px;
+	font-family: 'Handlee';
+	margin-bottom: 15px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+
+
+}
+
+.card .info-title:after{
+	background: #000;
+	width: 20px;
+	height:3px;
+	content: '';
+	display: inline-block;
+	margin-left: 5px;
+}
+.card .info-title:before{
+	background: #000;
+	width: 20px;
+	height:3px;
+	content: '';
+	display: inline-block;
+	margin-right: 5px;
+
+}
+
+.card .info-text{
+	margin:0;
+	padding: 0 20px;
+	font-size: 19px;
+	font-family: 'Itim';
+	color: #444;
+}
+
+
+.person-img{
+	width: 150px;
+	height: 150px;
+	border: 5px solid white;
+	border-radius: 5px;
+	margin:0 auto;
+}
+.person-img img{
+	width: 100%;
+	height:100%;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-column{
+	flex-direction:column;
+}
+.flex-center{
+	justyify-content:center;
+}
+
+.flex-middle{
+	align-items:center;
+}
+
+.flex-wrap{
+	flex-wrap:wrap;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.relative{
+	position: relative;
+}
+
+.left-pos{
+	position: absolute;
+	left:-300px;
+}
+
+.right-pos{
+	position: absolute;
+	right:-300px;
+}
+
+.crisp{
+	width: 300px;
+	z-index: 8;
+}
+
+.carousel{
+	background: red;
+}
+
+.carousel-control .icon-next, .carousel-control .icon-prev{
+	font-size: 100px !important;
+}
+
+.carousel-container .carousel-item img{
+	width: 600px !important;
+	height: 100% !important;
+	margin:0 auto !important;
+}
