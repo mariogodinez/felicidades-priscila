@@ -1,5 +1,4 @@
 
-
 body{
 	margin:0;
 }
@@ -17,7 +16,7 @@ body{
 
 .mario{
 	position: relative;
-	padding: 80px 0 !important; 
+	padding: 140px 0 0px 0 !important; 
 }
 
 
@@ -50,8 +49,22 @@ body{
 
 .cloud5{
 	right:200px;
-	top:20px;
+	top:10px;
 	width: 100px;
+}
+
+
+.cloud6{
+	right:60px;
+	bottom:30px;
+	width: 140px;
+}
+
+
+.cloud7{
+	left:30px;
+	bottom:30px;
+	width: 140px;
 }
 
 
@@ -62,14 +75,14 @@ body{
 	position: relative;
 	font-size: 28px;
 	font-family: 'Handlee';
-	margin:40px auto;
+	margin:80px auto;
 }
 
 .title-section:after{
 	content: '';
 	border-left: 30px solid transparent;
 	border-top: 30px solid transparent;
-	border-right: 30px solid #F15A5F;
+	border-right: 30px solid #00CCFF;
 	border-bottom: 30px solid transparent;
 	display: inline-block;
 	position:absolute;
@@ -81,7 +94,7 @@ body{
 
 .title-section:before{
 	content: '';
-	border-left: 30px solid #F15A5F;
+	border-left: 30px solid #00CCFF;
 	border-top: 30px solid transparent;
 	border-right: 30px solid transparent;
 	border-bottom: 30px solid transparent;
@@ -123,12 +136,12 @@ body{
 
 .familia-dino1{
 	top:30px;
-	 right:-330px;
+	 right:-300px;
 }
 
 
 .back-azul{
-	background: #66CBFF;
+	background: #00CCFF;
 }
 
 .back-rosa{
@@ -141,14 +154,16 @@ body{
 
 .card{
 	max-width: 450px;
-	margin: 30px auto;
+	min-width: 450px;
+	min-height: 400px;
+	margin: 90px auto;
 	display: flex;
 	padding: 20px 0;
 	flex-direction:column;
 	border: 1px solid #bbb;
 	background: #f2f2f2;
 	border-radius: 5px;
-	z-index: 10;
+	z-index: 10 !important;
 }
 
 .card .info{
@@ -165,7 +180,7 @@ body{
 	padding: 10px 0;
 	font-size: 25px;
 	font-family: 'Handlee';
-	margin-bottom: 15px;
+	margin:15px 0;
 	display: flex;
 	justify-content:center;
 	align-items:center;
@@ -201,6 +216,14 @@ body{
 	color: #444;
 }
 
+.card-ballom{
+	width: 200px;
+	position: absolute;
+	top:-150px;
+	left:120px;
+	z-index: 5 !important;
+
+}
 
 .person-img{
 	width: 150px;
@@ -243,21 +266,41 @@ body{
 
 .left-pos{
 	position: absolute;
-	left:-300px;
+	left:-350px;
+	top:70px;
 }
 
 .right-pos{
 	position: absolute;
+	top:90px;
 	right:-300px;
 }
 
 .crisp{
+
 	width: 300px;
 	z-index: 8;
 }
+.crisp2{
+	width: 250px;
+	z-index: 8;
+}
+.dino-saying{
+	width: 200px;
+}
 
-.carousel{
-	background: red;
+.dino-paleta{
+	width:270px;
+	top:-260px;
+	position: absolute;
+}
+
+.rotate20{
+	transform:rotate(-20deg) !important;
+}
+
+.carousel-container, .carousel, .carousel-control{
+	background: #00CCFF !important;
 }
 
 .carousel-control .icon-next, .carousel-control .icon-prev{
@@ -268,4 +311,36 @@ body{
 	width: 600px !important;
 	height: 100% !important;
 	margin:0 auto !important;
+}
+
+
+.footer{
+	width: 100%;
+}
+
+.footer .back{
+	position: relative;
+}
+
+.footer-dino{
+	position: absolute;
+	width: 300px;
+	top:0;
+	left: 0;
+}
+.paisaje{
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.fo-dino1{
+	top:50px;
+	right: 50px;
+}
+
+.fo-dino2{
+	top:50px;
+	right:200px !important;
 }
