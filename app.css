@@ -1,6 +1,7 @@
 
 body{
 	margin:0;
+	background: #00CCFF;
 }
 
 .top-img{
@@ -107,14 +108,25 @@ body{
 }
 
 
-.title-section img{
+.title-section .bird-left{
 	display: inline-block;
 	position: absolute;
 	width: 75px;
 	height: 75px;
-	top:-48px;
-	right: -38px;
-	transform:rotate(40deg);
+	top:-31px;
+	left: -59px;
+	z-index: 5;
+
+}
+
+
+.title-section .bird-right{
+	display: inline-block;
+	position: absolute;
+	width: 61px;
+	height: 61px;
+	top:-27px;
+	right: -53px;
 	z-index: 5;
 
 }
@@ -313,34 +325,127 @@ body{
 	margin:0 auto !important;
 }
 
+.carousel-container{
+	padding-bottom: 90px;
+}
 
 .footer{
 	width: 100%;
+	height: 500px;
 }
 
 .footer .back{
 	position: relative;
+	width: 100%;
+	height: 100%;
 }
 
 .footer-dino{
 	position: absolute;
-	width: 300px;
+	width: 250px;
 	top:0;
 	left: 0;
 }
 .paisaje{
 	width: 100%;
+	height: 170%;
 	position: absolute;
 	top:0;
 	left:0;
 }
 
 .fo-dino1{
-	top:50px;
+	top:150px;
 	right: 50px;
 }
 
 .fo-dino2{
-	top:50px;
-	right:200px !important;
+	top:150px;
+	left:81%;
+}
+.fo-dino3{
+	top:460px;
+	left:90px;
+}
+.fo-dino4{
+	top:390px;
+	left:77%;
+}
+
+
+.fo-dino6{
+	top:90px;
+	left:240px;
+	width: 170px;
+}
+
+.fo-dino8{
+	top:220px;
+	left:60%;
+	width: 150px;
+}
+
+.pulse{
+      animation-name:pulsing;
+      animation-duration:.8s;
+      animation-delay:.5s;
+      animation-timing-function: linear;
+      animation-iteration-count:infinite;
+      cursor: pointer;
+    }
+
+@keyframes pulsing{
+	0%{
+		transform:scale(1);
+
+	}
+	50%{
+		transform:scale(1.1);
+		
+	}
+	100%{
+		transform:scale(1);
+
+	}
+}
+
+
+.regalo{
+	width: 100%;
+	height: 100vh;
+	background: url('back-vect.png');
+	background-size: cover;
+	text-align: center !important;
+
+}
+.regalo h1{
+	font-size: 8em;
+	font-family: 'Handlee';
+	text-shadow:3px 3px 0 #fa0;
+
+}
+
+.regalo h2{
+	font-size: 7em;
+	font-family: 'Handlee';
+	text-shadow:3px 3px 0 #fa0;
+
+
+}
+
+.blur{
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,.5);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+@media screen and (min-width: 1100px){
+	.top-img{
+		position:relative;
+		top: -100px;
+	}
 }
